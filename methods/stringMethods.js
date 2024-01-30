@@ -15,31 +15,6 @@ console.log(Hello.charCodeAt(4)) //80
 console.log(Hello.at(5)) //e
 console.log(Hello.at(-1)) //!
 
-//slice
-let fruits = "Ameixa, Banana, Kiwi, Jabuticaba";
-let fruta = fruits.slice(8, 14)
-console.log(fruta); //Banana
-fruits = ["Banana","Maça", "Laranja", "Uva"];
-fruits = fruits.slice(1,3) // INÍCIO   ,  FIM+1
-console.log(fruits) //['Maça', 'Laranja']
-fruits = fruits.slice(-2,-1) // nesse exemplo os 2 parametros devem ser negativos
-console.log(fruits) //['Maça']
-
-//substring
-let cars = "Montana, Fionrino, Pampa, Courier, Hoggar";
-let car = cars.substring(9,17) //Fiorino
-console.log(car)
-car = cars.substring(-18) //Montana, Fionrino, Pampa, Courier, Hoggar
-console.log(car)
-
-//substr
-car = cars.substr(4,3)
-console.log(car) //ana
-car = cars.substr(35) // com um unico parametro
-console.log(car) //Hoggar
-car = cars.substr(-6)
-console.log(car) //Hoggar
-
 //toUpperCase()
 let phrase = "Olá Mundo!"
 console.log(phrase.toUpperCase()) //OLÁ MUNDO!
